@@ -5,13 +5,15 @@
 }
 
 body {
-    font-family: 'Space Grotesk'
+    font-family: 'Space Grotesk';
+    background: #FCFAFF;
 }
 
 a {
     text-decoration: none;
 }
 
+/* header */
 header {
     width: 100%;
     height: 76px;
@@ -42,3 +44,59 @@ header img {
     white-space: nowrap;
     opacity: 0.5;
 }
+
+/* header */
+/* section-start */
+/* section__main */
+.main {
+    position: relative;
+}
+
+.main__bg {
+    position: absolute;
+    width: 1440px;
+    height: 499px;
+    left: 0px;
+    top: 57px;
+    background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.8;
+    filter: blur(116px);
+    z-index: -1;
+}
+
+.main__box {
+    text-align: center;
+    padding-top: 117px;
+    /* white-space: nowrap; */
+}
+
+.main__box h1 {
+    font-weight: 700;
+    line-height: 96px;
+    font-size: 80px;
+    color: #000000;
+    text-shadow: -5px 4px 7px #ffffff;
+}
+
+.main__box p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #532C59;
+    padding: 32px 0px;
+}
+
+.main__box button {
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    padding: 16px 20px;
+    background: #332c59;
+}
+
+
+/* section__main */
+
+
+/* section-end */
