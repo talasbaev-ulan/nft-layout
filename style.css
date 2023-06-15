@@ -166,8 +166,6 @@ header img {
 
 /* section__team end*/
 /* section__collections */
-
-
 .collections__header {
     display: flex;
     flex-direction: column;
@@ -227,6 +225,65 @@ header img {
 }
 
 /* section__collections end */
+/* section__providing start */
+
+.section__providing {
+    margin-top: 75px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__providing h1 {
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+}
+
+.section__providing p:nth-child(2) {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #532C59;
+    margin: 24px 0px 60px 0;
+}
+
+.providing {
+    display: flex;
+    font-family: row wrap;
+    padding: 0 0 80px 0;
+}
+
+.providing__box {
+    width: 301px;
+    padding: 20px 16px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
 
 
+}
+
+
+.providing__box h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.providing__box p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+    margin-top: 12px
+}
+
+/* section__providing end */
 /* section-end */
