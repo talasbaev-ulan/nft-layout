@@ -286,4 +286,50 @@ header img {
 }
 
 /* section__providing end */
+
+/* qa start */
+
+.section__qanda {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-bottom: 500px;
+}
+
+.qa__wrapper {
+    padding: 24px;
+    border: 2px solid #d6bcfa;
+    border-radius: 15px;
+    background: #FCFAFF;
+    position: relative;
+    max-width: 412px;
+}
+
+.qa__wrapper p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.8;
+    margin: 0;
+    padding-bottom: 12px;
+
+
+}
+
+.qa__wrapper span {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    color: #532C59;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.qa__wrapper svg {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    cursor: pointer;
+}
+
 /* section-end */
