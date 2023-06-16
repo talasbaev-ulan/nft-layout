@@ -264,6 +264,7 @@ header img {
     flex-flow: column;
     text-align: center;
     align-items: center;
+    padding-bottom: 100px;
 
 
 }
@@ -292,8 +293,41 @@ header img {
 .section__qanda {
     display: flex;
     justify-content: center;
-    margin: 50px;
-    margin-bottom: 500px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section__qanda .wrapper1 {
+    margin-right: 32px;
+}
+
+.section__qanda .wrapper1 {}
+
+.section__qanda .text__wrapper {
+    display: flex;
+    flex-flow: column;
+    margin-right: 32px;
+    max-width: 412px;
+
+}
+
+.section__qanda h2 {
+    font-family: 'Syne';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+
+.section__qanda h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+    margin: 0;
+
 }
 
 .qa__wrapper {
@@ -303,6 +337,8 @@ header img {
     background: #FCFAFF;
     position: relative;
     max-width: 412px;
+    height: fit-content;
+    margin-bottom: 24px;
 }
 
 .qa__wrapper p {
